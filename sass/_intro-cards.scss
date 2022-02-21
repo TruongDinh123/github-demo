@@ -1,0 +1,16 @@
+.intro-cards{
+    padding: 0px 64px;
+    display: flex;
+
+    &-card{
+        width: calc(100%/2);
+        display: flex;
+        margin-right: 24px;
+        background-color: #5555;
+    }
+
+    &-img{
+        width: 294px;
+        height: 225px;
+    }
+}

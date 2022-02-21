@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 64px;
+
+
+    &-logo{
+        display: flex;
+        padding-right: 64px;
+        align-items: center;
+        font-size: 22px;
+        cursor: pointer;
+
+        &-img{
+            width: 32px;
+            height: 32px;
+            padding-right: 13px;
+        }
+
+        &-input{
+            padding: 5px;
+            width: 448px;
+            height: 25px;
+            border-radius: 8px;
+            border-color: #fff;
+            margin-left: 64px;
+        }
+    }
+
+    &-nav{
+        display: flex;
+        margin-right: 22px;
+        font-size: 16px;
+        align-items: center;
+        cursor: pointer;
+        &-logo{
+            width: 32px;
+            height: 32px;
+        }
+        &-iteam{
+            padding-right: 22px;
+        }
+    }
+}
