@@ -9,8 +9,20 @@
         background-color: #5555;
     }
 
+    &-content{
+        padding-left: 25px;
+    }
+
     &-img{
         width: 294px;
         height: 225px;
+    }
+
+    &-h1{
+        width: 130%;
+    }
+
+    &-p{
+        width: 85%;
     }
 }
